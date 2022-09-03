@@ -1,0 +1,20 @@
+{
+	"apps": [{
+		"name": "article",
+		"cwd": "C:/Users/Rizal R/Desktop/Stechoq pembekalan/hari ini 2 sept (backend)/article-backend-main/article-backend-sunday",
+		"script": "./app.js",
+		"node_args": "--expose-gc",
+		"watch": false,
+		"ignore_watch": [
+			"./node_modules",
+			"./.git"
+		 ],
+		"log_date_format": "YYYY-MM-DD HH:mm Z",
+		"exec_mode": "cluster",
+		"instances": "1",
+		"max_memory_restart": "512M",
+		"env": {
+			"PORT": "2603"
+		}
+	 }]
+}
